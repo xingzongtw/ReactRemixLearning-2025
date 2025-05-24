@@ -1,40 +1,40 @@
-# Welcome to Remix!
+# 歡迎使用 Remix！
 
-- 📖 [Remix docs](https://remix.run/docs)
+- 📖 [Remix 文件](https://remix.run/docs)
 
-## Development
+## 開發
 
-Run the dev server:
+啟動開發伺服器：
 
 ```shellscript
 npm run dev
 ```
 
-## Deployment
+## 部署
 
-First, build your app for production:
+首先，為生產環境構建您的應用程式：
 
 ```sh
 npm run build
 ```
 
-Then run the app in production mode:
+然後以生產模式運行應用程式：
 
 ```sh
 npm start
 ```
 
-Now you'll need to pick a host to deploy it to.
+現在您需要選擇一個主機來部署應用程式。
 
-### DIY
+### 自行部署
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+如果您熟悉部署 Node 應用程式，內建的 Remix 應用伺服器已經可以用於生產環境。
 
-Make sure to deploy the output of `npm run build`
+請確保部署 `npm run build` 的輸出結果：
 
 - `build/server`
 - `build/client`
 
-## Styling
+## 樣式
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+此模板已經預先配置了 [Tailwind CSS](https://tailwindcss.com/)，提供簡單的預設樣式體驗。您可以使用任何您喜歡的 CSS 框架。更多資訊請參考 [Vite 的 CSS 文件](https://vitejs.dev/guide/features.html#css)。
